@@ -12,10 +12,10 @@ Widget::Widget(QWidget *parent)
     ui->setupUi(this);
     ui->graphicsView->setInteractive(false);
 
-    myScene = new QGraphicsScene(ui->graphicsView);
+    setCoordinates();
+    myScene = new QGraphicsScene(View);
     ui->graphicsView->setScene(myScene);
 
-    setCoordinates();
     drawAxes();
     genSineWave();
     plotSignal();
