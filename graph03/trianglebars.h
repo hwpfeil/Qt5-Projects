@@ -3,7 +3,6 @@
 
 #include "data.h"
 #include <QtDataVisualization>
-#include <QtDataVisualization>
 #include <QApplication>
 #include <Q3DBars>
 #include <QWidget>
@@ -16,7 +15,7 @@
 #include <QBarDataRow>
 #include <QBarDataProxy>
 
-using namespace QtDataVisualization;
+// using namespace QtDataVisualization;
 
 class triangleBars : public Q3DBars
 {
