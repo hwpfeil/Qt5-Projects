@@ -1,3 +1,5 @@
+Added Qt6 Widget Plot sinusoid waves
+
 # Obsolete. Move along. Nothing to see here.
 plotSine still works in Qt 6.12
 DFT and graph03 are enroute to QML
